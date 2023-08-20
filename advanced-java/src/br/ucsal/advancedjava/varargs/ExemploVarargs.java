@@ -1,4 +1,4 @@
-package br.ucsal.advancedjava;
+package br.ucsal.advancedjava.varargs;
 
 public class ExemploVarargs {
 
