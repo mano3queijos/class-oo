@@ -15,7 +15,7 @@ public class ExempleExternalClass {
 	}
 
 	public static void main(String[] args) {
-
+// se a classe interna fosse statica, não ia ser necessária a instancia da classe externa instancear a classe interna
 		ExempleExternalClass external = new ExempleExternalClass();
 		Internal internal = external.new Internal();
 		
