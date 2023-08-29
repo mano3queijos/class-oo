@@ -1,5 +1,5 @@
 
-package br.ucsal.advancedjava.Solid;
+package br.ucsal.advancedjava.Solid.ex1;
 
 public class B extends A {
     public String getNome() {

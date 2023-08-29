@@ -1,4 +1,4 @@
-package br.ucsal.advancedjava.Solid;
+package br.ucsal.advancedjava.Solid.ex1;
 
 public class Console {
     public static void imprimeNome(A a) {
