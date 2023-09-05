@@ -20,5 +20,8 @@ Se uma classe é uma subclasse de outra, ela deve ser capaz de ser usada em qual
 
 # D:
 
+
+
+
 <!--
 >Se para cada objeto o1 do tipo S há um objeto 02 do tipo T de forma que, para todos os programas P definidos em termos de T, o comportamento de P é inalterado quando o1 é substituido por 02 então S é um subtipo de T -->
