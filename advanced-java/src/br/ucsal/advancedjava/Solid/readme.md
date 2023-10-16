@@ -200,3 +200,58 @@ class MessageSender {
 A classe MessageSender não está mais diretamente acoplada à lógica de envio de email ou SMS. Em vez disso, ela depende de uma abstração MessageProvider.
 
 As classes EmailSender e SMSSender implementam essa abstração, fornecendo a implementação real dos métodos sendMessage.
+
+# SOLID
+
+Exemplo aplicando todos os princípios SOLID em Java:
+
+```java
+package br.ucsal.advancedjava.Solid.SOLID;
+
+import java.util.List;
+
+public class Solid {
+
+    interface Worker {
+        void work();
+    }
+
+    interface Eater {
+        void eat();
+    }
+
+    class Employee implements Worker, Eater {
+        @Override
+        public void work() {
+            // Implementação do trabalho do funcionário
+        }
+
+        @Override
+        public void eat() {
+            // Implementação de como o funcionário come
+        }
+    }
+
+    class Robot implements Worker {
+        @Override
+        public void work() {
+            // Implementação do trabalho do robô
+        }
+    }
+
+    class TaskManager {
+        List<Worker> workers;
+
+        TaskManager(List<Worker> workers) {
+            this.workers = workers;
+        }
+
+        void assignTasks() {
+            for (Worker worker : workers) {
+                worker.work();
+            }
+        }
+    }
+}
+
+```
