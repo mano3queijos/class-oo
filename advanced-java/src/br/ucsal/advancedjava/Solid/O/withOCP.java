@@ -2,7 +2,6 @@ package br.ucsal.advancedjava.Solid.O;
 
 public class withOCP {
 
-}
 
 interface Shape {
     double calculateArea();
@@ -34,4 +33,6 @@ class Rectangle implements Shape {
     public double calculateArea() {
         return width * height;
     }
+}
+
 }

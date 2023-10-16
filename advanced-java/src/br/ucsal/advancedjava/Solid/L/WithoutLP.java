@@ -2,7 +2,6 @@ package br.ucsal.advancedjava.Solid.L;
 
 public class WithoutLP {
 
-}
 
 class Circle extends Shape {
     private double radius;
@@ -20,4 +19,7 @@ class Circle extends Shape {
     public void drawRectangle() {
         // ...
     }
+}
+
+	
 }

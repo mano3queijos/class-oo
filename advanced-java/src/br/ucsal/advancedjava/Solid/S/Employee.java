@@ -1,6 +1,8 @@
+
 package br.ucsal.advancedjava.Solid.S;
 
 class Employee {
+
     private String name;
     private String role;
     private double salary;
